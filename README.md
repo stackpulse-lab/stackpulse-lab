@@ -49,7 +49,7 @@
 ### 联系
 
 - Issue：对应仓库的 Issues 页（推荐）
-- 商务 / 定制脚本：见 GitHub 个人主页邮箱
+- 商务 / 定制脚本：在任意仓库开 Issue 并标注「合作」（Cooperation）
 
 ---
 
@@ -93,7 +93,7 @@ Sponsorship never changes the MIT license or removes features from the open-sour
 ### Contact
 
 - Issues: the Issues tab of the relevant repository (preferred)
-- Business / custom automation: see the email on the GitHub profile
+- Business / custom automation: open an issue titled “Cooperation” in any repository
 
 ---
 
