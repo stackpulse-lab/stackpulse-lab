@@ -29,7 +29,7 @@
 | 项目 | 用途 | 状态 |
 | --- | --- | --- |
 | **[LeakPulse](https://github.com/stackpulse-lab/leakpulse)** | 零依赖密钥泄露扫描器：工作区 / 暂存区 / 提交历史，一条命令拦截 `ghp_`、`sk-`、私钥与高熵令牌 | ✅ `v0.1.0` |
-| **CronPulse** | Cron 表达式解释、未来触发时间预览、不可能触发的任务检测 | 🧪 规划中 |
+| **[CronPulse](https://github.com/stackpulse-lab/cronpulse)** | Cron 表达式解释、未来触发时间预览、不可能触发的任务检测 | ✅ `v0.1.0` |
 | **PortPulse** | 端口占用清单与冲突定位，替代记不住的 `ss` 参数组合 | 🧪 规划中 |
 | **LogPulse** | JSON/文本日志的流式过滤、字段提取与慢请求归因 | 🧪 规划中 |
 
@@ -73,7 +73,7 @@ Small, sharp utilities for the fiddly parts of daily development and operations:
 | Project | What it does | Status |
 | --- | --- | --- |
 | **[LeakPulse](https://github.com/stackpulse-lab/leakpulse)** | Dependency-free secret scanner for working trees, staged changes and git history — catches `ghp_`, `sk-`, private keys and high-entropy tokens | ✅ `v0.1.0` |
-| **CronPulse** | Explain cron expressions, preview upcoming runs, detect schedules that never fire | 🧪 Planned |
+| **[CronPulse](https://github.com/stackpulse-lab/cronpulse)** | Explain cron expressions, preview upcoming runs, detect schedules that never fire | ✅ `v0.1.0` |
 | **PortPulse** | Listener inventory and port-conflict diagnostics without memorizing `ss` flags | 🧪 Planned |
 | **LogPulse** | Streaming filter, field extraction and slow-request attribution for JSON/text logs | 🧪 Planned |
 
