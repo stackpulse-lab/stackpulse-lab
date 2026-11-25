@@ -28,7 +28,7 @@
 
 | 项目 | 用途 | 状态 |
 | --- | --- | --- |
-| **[LeakPulse](https://github.com/stackpulse-lab/leakpulse)** | 零依赖密钥泄露扫描器：工作区 / 暂存区 / 提交历史，一条命令拦截 `ghp_`、`sk-`、私钥与高熵令牌 | ✅ `v0.1.0` |
+| **[LeakPulse](https://github.com/stackpulse-lab/leakpulse)** | 零依赖密钥泄露扫描器：工作区 / 暂存区 / 提交历史，覆盖 GitHub/OpenAI 与 DeepSeek、阿里云、腾讯云、飞书/企微/钉钉、爱发电等 28 条规则 | ✅ `v0.2.0` |
 | **[CronPulse](https://github.com/stackpulse-lab/cronpulse)** | Cron/systemd 定时体检：表达式解释、DST 边界检测、Quartz 方言拦截、crontab/systemd 清单漂移检查 | ✅ `v0.6.0` |
 | **PortPulse** | 端口占用清单与冲突定位，替代记不住的 `ss` 参数组合 | 🧪 规划中 |
 | **LogPulse** | JSON/文本日志的流式过滤、字段提取与慢请求归因 | 🧪 规划中 |
@@ -72,7 +72,7 @@ Small, sharp utilities for the fiddly parts of daily development and operations:
 
 | Project | What it does | Status |
 | --- | --- | --- |
-| **[LeakPulse](https://github.com/stackpulse-lab/leakpulse)** | Dependency-free secret scanner for working trees, staged changes and git history — catches `ghp_`, `sk-`, private keys and high-entropy tokens | ✅ `v0.1.0` |
+| **[LeakPulse](https://github.com/stackpulse-lab/leakpulse)** | Dependency-free secret scanner for working trees, staged changes and git history — 28 rules including DeepSeek, Aliyun, Tencent Cloud, Feishu/WeCom/DingTalk webhooks and Afdian tokens | ✅ `v0.2.0` |
 | **[CronPulse](https://github.com/stackpulse-lab/cronpulse)** | Cron & systemd schedule guard: explain expressions, DST gap/overlap detection, crontab & systemd timer drift checks | ✅ `v0.6.0` |
 | **PortPulse** | Listener inventory and port-conflict diagnostics without memorizing `ss` flags | 🧪 Planned |
 | **LogPulse** | Streaming filter, field extraction and slow-request attribution for JSON/text logs | 🧪 Planned |
