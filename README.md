@@ -35,6 +35,16 @@
 
 > 规划中的项目会按周迭代发布；只把真正跑通、有测试的东西标成「已发布」。
 
+### 文章
+
+我们把真实的踩坑过程写成可复现手册：命令、终端输出、退出码齐全，示例凭据全部在运行时生成。
+
+| 日期 | 文章 | 主题 |
+| --- | --- | --- |
+| 2026-11-27 | [密钥泄露后的 10 分钟](articles/secret-leak-10min.zh.md) | 轮换优先、历史取证、pre-commit/CI 门禁、复盘清单 |
+
+更多见 [`articles/`](articles/)，英文版本在每篇文章内互链。
+
 ### 为什么值得关注
 
 - 每个仓库都有**完整 README、变更日志与单元测试**，不是一次性脚本。
@@ -78,6 +88,16 @@ Small, sharp utilities for the fiddly parts of daily development and operations:
 | **LogPulse** | Streaming filter, field extraction and slow-request attribution for JSON/text logs | 🧪 Planned |
 
 > Planned projects ship weekly. Nothing is marked “released” until it runs and has tests.
+
+### Articles
+
+Real incident write-ups with reproducible commands, terminal output and exit codes. Demo credentials are generated at runtime.
+
+| Date | Article | Topic |
+| --- | --- | --- |
+| 2026-11-27 | [The first 10 minutes after a secret leak](articles/secret-leak-10min.en.md) | Rotate first, history forensics, pre-commit/CI gates, postmortem checklist |
+
+See [`articles/`](articles/) for the index; each article links to its Chinese/English counterpart.
 
 ### Why follow
 
