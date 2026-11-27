@@ -42,6 +42,7 @@
 | 日期 | 文章 | 主题 |
 | --- | --- | --- |
 | 2026-11-27 | [密钥泄露后的 10 分钟](articles/secret-leak-10min.zh.md) | 轮换优先、历史取证、pre-commit/CI 门禁、复盘清单 |
+| 2026-11-27 | [存量仓库接入密钥扫描：基线模式 10 分钟落地](articles/legacy-repo-baseline.zh.md) | 基线指纹、增量 CI、轮换与路径边界、运维约定 |
 
 更多见 [`articles/`](articles/)，英文版本在每篇文章内互链。
 
@@ -96,6 +97,7 @@ Real incident write-ups with reproducible commands, terminal output and exit cod
 | Date | Article | Topic |
 | --- | --- | --- |
 | 2026-11-27 | [The first 10 minutes after a secret leak](articles/secret-leak-10min.en.md) | Rotate first, history forensics, pre-commit/CI gates, postmortem checklist |
+| 2026-11-27 | [Adopting a secret scanner in a legacy repo](articles/legacy-repo-baseline.en.md) | Baseline fingerprints, incremental CI, rotation/path boundaries, operating rules |
 
 See [`articles/`](articles/) for the index; each article links to its Chinese/English counterpart.
 
