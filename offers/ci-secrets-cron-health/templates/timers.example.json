@@ -1,0 +1,7 @@
+{
+  "timers": [
+    {"name": "backup.timer", "calendar": "daily", "service": "backup.service"},
+    {"name": "report.timer", "calendars": ["Mon..Fri 09:00", "Fri 18:00"], "service": "report.service"},
+    {"name": "cert-renew.timer", "calendar": "*-*-* 04:15:00", "service": "cert-renew.service"}
+  ]
+}

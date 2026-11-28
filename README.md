@@ -47,6 +47,16 @@
 
 更多见 [`articles/`](articles/)，英文版本在每篇文章内互链。
 
+### 服务：CI 密钥防线 + 定时任务体检
+
+给 5–50 人工程团队的一次性「止血 + 对账」交付包：用 LeakPulse 把密钥挡在提交之前，用 CronPulse 找出悄悄失灵的 cron / systemd timer。
+
+- **免费**：交付模板（信息收集表、体检清单、报告模板、清单样例）随仓库开放，MIT。
+- **付费**：轻体检 499 CNY / 次，落地陪跑 1500 CNY 起（试运营价）。
+- **边界**：只读审计，不接触真实凭据、不远程登录生产机、不代管密钥、不改写 Git 历史。
+
+详见 [交付包说明与模板](offers/ci-secrets-cron-health/README.md)。
+
 ### 为什么值得关注
 
 - 每个仓库都有**完整 README、变更日志与单元测试**，不是一次性脚本。
@@ -102,6 +112,16 @@ Real incident write-ups with reproducible commands, terminal output and exit cod
 | 2026-11-28 | [When the schedule did not run: DST gaps and systemd timer drift](articles/cronpulse-dst-timer-drift.en.md) | DST gap/overlap, real offsets, timer inventory drift, exit-code routing |
 
 See [`articles/`](articles/) for the index; each article links to its Chinese/English counterpart.
+
+### Service: CI secret gates + schedule health check
+
+A fixed-scope "stop the bleeding + reconcile the schedule" package for teams of 5–50 engineers: LeakPulse blocks secrets before commit, CronPulse finds cron jobs and systemd timers that quietly stopped working.
+
+- **Free**: every delivery template (intake form, audit checklist, report template, manifest examples) is in the repo under MIT.
+- **Paid**: light audit at 499 CNY, landing support from 1500 CNY (introductory pricing).
+- **Boundaries**: read-only audit; we never handle real credentials, log in to production, manage secrets, or rewrite Git history.
+
+See the [offer page and templates](offers/ci-secrets-cron-health/README.md).
 
 ### Why follow
 

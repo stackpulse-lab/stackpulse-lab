@@ -1,0 +1,8 @@
+{
+  "entries": [
+    {"schedule": "@daily", "command": "/usr/local/bin/backup.sh --full"},
+    {"schedule": "*/5 * * * *", "command": "/usr/local/bin/queue-health.sh"},
+    {"schedule": "0 3 * * *", "command": "/usr/local/bin/logrotate-run.sh"},
+    {"schedule": "30 2 * * *", "command": "/usr/local/bin/db-snapshot.sh"}
+  ]
+}
